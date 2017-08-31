@@ -1,0 +1,146 @@
+@import url(reset.css);
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body, html, .wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 16px; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  width: 100%;
+  height: 0.88rem;
+  background: #393A3F;
+  position: relative; }
+
+.header h1 span {
+  display: inline-block;
+  width: 0.88rem;
+  height: 0.88rem; }
+  .header h1 span b {
+    display: block;
+    height: 0.55rem;
+    width: 0.88rem;
+    font-size: 0.45rem;
+    border-right: 1px solid #000;
+    margin-top: 0.16rem;
+    text-align: center;
+    line-height: 0.55rem;
+    color: #fff; }
+.header h1 small {
+  color: #fff;
+  margin-left: 0.15rem; }
+
+.header p {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0.88rem;
+  height: 0.88rem; }
+  .header p i {
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 0.45rem;
+    color: #fff;
+    line-height: 0.88rem;
+    margin-left: 0.2rem; }
+
+.main {
+  flex: 1;
+  height: 100%;
+  position: relative; }
+
+.mark {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0.88rem;
+  background: rgba(0, 0, 0, 0.5); }
+
+.box {
+  width: 90%;
+  height: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -45%;
+  margin-top: -50%;
+  background: #fff;
+  border-radius: 8px; }
+
+.top {
+  width: 100%;
+  height: 2.5rem; }
+  .top h2 {
+    width: 2.5rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    padding-top: 0.5rem; }
+    .top h2 b {
+      width: 100%;
+      height: 1rem;
+      display: block; }
+      .top h2 b img {
+        width: 100%;
+        height: 100%; }
+    .top h2 p {
+      font-size: 0.31rem;
+      padding-top: 0.15rem; }
+
+.cont {
+  width: 100%;
+  height: 2.3rem; }
+  .cont p {
+    width: 85%;
+    height: 1rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #DCDFDF;
+    position: relative;
+    margin-top: 0.1rem; }
+    .cont p input {
+      width: 100%;
+      height: 100%;
+      outline: none;
+      border-width: 0; }
+    .cont p input::-webkit-input-placeholder {
+      padding-left: 0.6rem; }
+    .cont p b {
+      width: 0.3rem;
+      height: 0.4rem;
+      position: absolute;
+      left: 0.1rem;
+      top: 0;
+      line-height: 1.1rem; }
+      .cont p b img {
+        width: 100%;
+        height: 100%; }
+
+.btn {
+  width: 100%;
+  height: 0.9rem;
+  margin-top: 0.4rem; }
+  .btn p {
+    width: 85%;
+    height: 100%;
+    display: block;
+    margin: 0 auto; }
+  .btn button {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #2FBA77;
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
